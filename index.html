@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tribute Page</title>
+	<title>The Beatles Tribute Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 	<main id="main">
-		<h1 id="title">The Beatles</h1>
-		<div id="img-div">
-			<img id="image" />
-			<div id=caption></div>
-		</div>
+		<header>
+			<audio id="music" controls autoplay>
+				<source src="assets/inmylife.mp3" type="audio/mpeg">
+			</audio>
+			<h1 id="title">The Beatles</h1>
+			<div id="img-div">
+				<img id="image" src="assets/beatles.jpg" alt="The Beatles"/>
+				<div id="caption">Image of the Beatles</div>
+			</div>
+		</header>
+		<hr />
+		<h2>About</h2>
 		<section id="tribute-info">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla neque augue, ac fringilla diam fermentum eu. Nulla volutpat commodo massa, at viverra lectus ultricies eget. Aenean condimentum sagittis ipsum, et euismod tellus. Integer et porta risus. Phasellus in eleifend erat. Maecenas faucibus ex leo, eu volutpat tellus pellentesque sit amet. Duis purus leo, fringilla non augue nec, sollicitudin rutrum est.
 			<a id="tribute-link" target="_blank"></a>
 		</section>
+		<hr />
+		<h2>Discography</h2>
+		<div id='grid-container'>
+			<div class="album" id="item1"></div>
+			<div class="album" id="item2"></div>
+			<div class="album" id="item3"></div>
+			<div class="album" id="item4"></div>
+			<div class="album" id="item5"></div>
+			<div class="album" id="item6"></div>
+			<div class="album" id="item7"></div>
+			<div class="album" id="item8"></div>
+			<div class="album" id="item9"></div>
+			<div class="album" id="item10"></div>
+			<div class="album" id="item11"></div>
+			<div class="album" id="item12"></div>
+		</div>
 	</main>
 </body>
 </html>

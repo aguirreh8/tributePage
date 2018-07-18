@@ -1,0 +1,14 @@
+body {
+	background-image: url("assets/diamond_upholstery.png");
+}
+
+#grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-template-rows: repeat(3, 300px);
+	grid-gap: 10px;
+}
+
+.album {
+	background-color: black;
+}
