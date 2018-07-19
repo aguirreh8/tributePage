@@ -2,12 +2,61 @@ body {
 	background-image: url("assets/diamond_upholstery.png");
 }
 
+:root {
+	--text-border: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+#music {
+	position: fixed;
+	top: 0;
+	right: 0; 
+}
+
+#title {
+	font-size: 100px;
+    text-shadow: var(--text-border);
+    text-align: center;
+}
+
+#subtext {
+	position: absolute;
+	z-index: 2;
+	font-size: 30px;
+	top: 65px;
+}
+
+#img-div {
+	text-align: center;
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+#image {
+	width: 68%;
+	height: auto;
+}
+
+h2 {
+	text-shadow: var(--text-border);
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
 #grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 300px);
 	grid-template-rows: repeat(3, 300px);
 	grid-gap: 10px;
 }
+
 
 .album {
 	background-color: black;
