@@ -79,8 +79,8 @@ h2 {
 
 @media screen and (max-width: 950px) {
 	#grid-container {
-		grid-template-columns: repeat(2, 250px);
-		grid-template-rows: repeat(3, 250px)
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 250px);
 	}
 }
 
